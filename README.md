@@ -2,12 +2,25 @@
 
 Developed with Unreal Engine 4
 
-Il faut : partir d'un nouveau projet template FPS ou TPS sans starter content et que les notions suivantes vues en cours soient implémentées :
+From FPS template create a game with these conditions :
 
-- [x] Utilisation des touches ZQSD pour le déplacement
-- [x] Menu avec 2 onglets (Main et Settings - widget switcher)
-- [x] UI avec : barre de vie, compteur d'items récupérés et timer
-- [x] Au moins 2 items utilisant une même interface
-- [x] Un line trace (qui peut servir pour appeler une fonction dans l'interface mais pas nécessairement)
-- [x] Un trigger
-- [x] Un timer by event (ou by function)
+- [x] ZQSD to move
+- [x] Menu with 2 tabs
+- [x] UI with :
+  - battery life
+  - key counter by type 
+  - timer
+- [x] At leat 2 items use the same interface : (I_Interactable)
+  - door
+  - keys
+  - batteries
+  - escape trap door
+  - hide lockers
+- [x] A line trace (Sphere Trace)
+  - to interact
+  - to show UI when interactable
+- [x] A trigger
+  - monster
+- [x] A timer by function
+  - battery life
+  - game timer
